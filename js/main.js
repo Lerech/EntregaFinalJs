@@ -132,7 +132,7 @@ const renderizadoraDeCards = () => {
 }
 
 finalizarCompra.addEventListener('click', () => {
-    if (carrito.length > 0) {
+    if (carrito.length > 1) {
         Swal.fire({
             title: "Compra finalizada",
             text: "Gracias por tu compra!",
