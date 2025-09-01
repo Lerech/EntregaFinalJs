@@ -1,0 +1,12 @@
+$fuente: "Chewy", system-ui;
+
+@mixin tamano ($ancho, $alto) {
+  width: $ancho;
+  height: $alto;
+}
+
+@mixin flex {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}

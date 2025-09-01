@@ -1,0 +1,10 @@
+
+
+.contacto{
+    @include flex;
+    flex-direction: column;
+    .form-contacto:focus {
+        background-color: whitesmoke;
+    }
+    
+}

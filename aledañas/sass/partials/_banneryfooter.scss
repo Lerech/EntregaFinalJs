@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// banner y footer //
+.banner {
+  width: 100%;
+  background-color: hsl(0, 0%, 100%);
+  
+  .logo {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    padding-left: 38%;
+    
+    a {
+      display: block;
+      
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+
+.footer {
+  background-color: #FFEEDD;
+  .footer-div {
+  display: flex;
+  width: 100%;
+    
+  justify-content: space-evenly;
+    .footer-img {
+      
+      width: 10%;
+      
+    }
+    img {
+        
+        max-width: 100%;
+      }
+  }
+  
+}

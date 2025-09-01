@@ -1,0 +1,12 @@
+
+@mixin query {
+  @media (max-width: 768px) {
+    font-size: 80%;
+  }
+  @media (min-width: 769px) and (max-width: 1024px) {
+    font-size: 90%;
+  }
+  @media (min-width: 1025px) {
+    font-size: 100%;
+  }
+}

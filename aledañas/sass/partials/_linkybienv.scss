@@ -1,0 +1,40 @@
+@import "_variables";
+
+.bienvenida-texto{
+    margin: 8px;
+    color: #f5f5dc;
+    display: flex;
+    justify-content: center;
+    background-image: url(../Imagenes-RJC/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration: double underline;
+    font-family: "Bungee Spice", sans-serif;
+    font-size: 150%;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 5% 0 5% 0;
+
+
+}
+
+.links { 
+  background-color: #FFDEDE;
+  display: flex; 
+  justify-content: space-evenly; 
+
+  .link { 
+  color: black;
+  text-decoration: underline
+  }
+
+
+}
+  .links ul{
+    list-style: none; 
+    display: flex; 
+    justify-content: space-evenly; 
+    width: 100%; 
+    padding: 0; 
+    margin: 0; 
+  }

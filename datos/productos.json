@@ -1,0 +1,46 @@
+{
+    "productos": [
+        {
+            "id": 1,
+            "nombre": "Auto con bloques",
+            "descripcion": "Ideal para desarrollar coordinación y motricidad.",
+            "precio": 28000,
+            "imagen": "https://rjc-juegosdidacticos.netlify.app/Imagenes-RJC/imgs/Autito%204.jpg"
+        },
+        {
+            "id": 2,
+            "nombre": "Laberinto de colores con canica",
+            "descripcion": "Ideal para dinámicas en grupo y terapias.",
+            "precio": 58000,
+            "imagen": "https://rjc-juegosdidacticos.netlify.app/Imagenes-RJC/imgs/Laberinto2.jpg"
+        },
+        {
+            "id": 3,
+            "nombre": "Jenga Gigante 32 CM",
+            "descripcion": "Tamaño práctico y divertido para llevar.",
+            "precio": 30000,
+            "imagen": "https://lerech.github.io/Nuevo/Imagenes-RJC/imgs/Jenga-32.jpg"
+        },
+        {
+            "id": 4,
+            "nombre": "Dominó Gigante",
+            "descripcion": "Piezas grandes, resistentes y seguras.",
+            "precio": 50000,
+            "imagen": "https://lerech.github.io/Nuevo/Imagenes-RJC/imgs/Domino4.jpg"
+        },
+        {
+            "id": 5,
+            "nombre": "Tatetí Gigante",
+            "descripcion": "Versión de gran tamaño y colorida.",
+            "precio": 36000,
+            "imagen": "https://lerech.github.io/Nuevo/Imagenes-RJC/imgs/ta-te-ti.jpg"
+        },
+        {
+            "id": 6,
+            "nombre": "Jenga Gigante 56 CM",
+            "descripcion": "Medida: hasta 56 cm de altura.",
+            "precio": 75000,
+            "imagen": "https://lerech.github.io/Nuevo/Imagenes-RJC/imgs/Jenga-56.jpg"
+        }
+        ]
+    }

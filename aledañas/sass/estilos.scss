@@ -1,0 +1,41 @@
+@import "partials/variables";
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import "partials/banneryfooter";   
+@import "partials/galeria";
+@import "partials/parrafosybody";
+@import "partials/contacto";
+@import "partials/faq";
+@import "partials/linkybienv";
+
+
+
+
+
+
+
+
+.carrusel{
+    width: 50%;
+    
+    }
+    
+
+    .cartas-flex{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+
+
+    
+ 
+
+
+
+
+
+
+@import "partials/mediaq";

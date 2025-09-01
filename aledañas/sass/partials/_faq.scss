@@ -1,0 +1,15 @@
+@import "_variables";
+
+
+.div-pyr{
+    margin: 5%;
+    padding: 3%;
+    @include flex;
+    flex-direction: column;
+    .pyr{
+    list-style: none;
+    margin: 3% 0 3% 0;
+    font-size: 180%;
+    font-family: $fuente;
+}
+}
