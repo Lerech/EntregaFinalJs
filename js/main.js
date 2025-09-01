@@ -142,7 +142,7 @@ finalizarCompra.addEventListener('click', () => {
         });
         carrito = []
         actualizarYGuardarCarrito();
-	} else {
+		} else {
 		Swal.fire({
             title: "Carrito vacío",
             text: "No hay productos para finalizar la compra.",
