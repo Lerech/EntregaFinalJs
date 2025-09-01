@@ -132,7 +132,7 @@ const renderizadoraDeCards = () => {
 }
 
 finalizarCompra.addEventListener('click', () => {
-    if (carrito.length > 1) {
+    if (carrito.length > 0) {
         Swal.fire({
             title: "Compra finalizada",
             text: "Gracias por tu compra!",
@@ -142,8 +142,8 @@ finalizarCompra.addEventListener('click', () => {
         });
         carrito = []
         actualizarYGuardarCarrito();
-		
-        Swal.fire({
+	} else {
+		Swal.fire({
             title: "Carrito vacío",
             text: "No hay productos para finalizar la compra.",
             icon: "warning",
